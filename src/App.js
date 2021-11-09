@@ -6,7 +6,7 @@ import { BrowserRouter,Routes, Route,useLocation, Link} from 'react-router-dom';
 const App = () => {
   return (
     <div>
-     <BrowserRouter>
+     <BrowserRouter basename="/react_antd_layout_router">
       <Routes>
         <Route path="/" element={<Homepage />}/>
         <Route path="p2" element={<Page2/>} />
