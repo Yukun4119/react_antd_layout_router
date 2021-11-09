@@ -6,13 +6,13 @@ import { BrowserRouter,Routes, Route,useLocation, Link} from 'react-router-dom';
 const App = () => {
   return (
     <div>
-     <BrowserRouter basename="/react_antd_layout_router">
+     <BrowserRouter >
       <Routes>
         <Route path="/" element={<Homepage />}/>
         <Route path="p2" element={<Page2/>} />
         <Route path="p3" element={<Page3/>} />
       </Routes>
-    </BrowserRouter>,
+    </BrowserRouter>
     </div>
   );
 }
